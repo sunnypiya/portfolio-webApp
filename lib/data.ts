@@ -35,28 +35,44 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Polytechnic Diploma in Computer Science",
+    location: "Delhi, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I after Completing my diploma. I developed social networking Web-App using .Net in my majo r project",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2015",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "ASP.NET Developer",
+    location: "Petrygon Technologies, Delhi",
+    description:
+      "I worked as a web developer developer for 3 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2015 - 2018",
+  },
+  {
+    title: "Full-Stack Developer (IT professional)",
+    location: "ICAR-Indian Agricultural Statistics Research Institute, Delhi",
     description:
       "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2018 - 2021",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Virtual Employee, Noida",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a full-stack developer working australian product based company(StockInStore). My stack includes React, .NET Core, Windows Services, TypeScript, Bootstrap, and SQL.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2021 - 2022",
+  },
+  {
+    title: "Senior Full-Stack Developer",
+    location: "Coforge Ltd, Noida",
+    description:
+      "I'm now a Senior Software developer working with indian based MNC. My stack includes React, Next.js, .NET Core, TypeScript, Tailwind, PrismaDB, Azure, Redis, SQL, CosmosDB and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(FaReact),
+    date: "2021 - Present",
   },
 ] as const;
 
